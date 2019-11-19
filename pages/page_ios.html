@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../tools/FileSaver.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../tools/jszip.min.js" charset="utf-8"></script>
+    <script src="../iconfont/iconfont.js"></script>
+    <link rel="stylesheet" type="text/css" href="../index.css"></link> 
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .title-view{
+            height: 83px;
+            font-size: 18px;
+            color: rgb(102, 102, 102);
+            line-height: 83px;
+            padding-left: 30px;
+            border-bottom: 1px solid #e1e1e1;
+        }
+
+        .content-view{
+            display: flex;
+            justify-content: left;
+            flex-direction: row;
+        }
+
+        .content-item{
+            margin-left: 30px;
+            margin-top: 10px;
+            width: 160px;
+            height: 185px;
+            background-color: white;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .content-item:hover{
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            border: 1px solid #e0e0e0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .itemimage{
+            width: 100%;
+            height: 150px;
+            line-height: 150px;
+            text-align: center;
+            padding: 5px 5px;
+            box-sizing: border-box;
+            /* border: 1px solid red; */
+        }
+        
+        .itemtitle{
+            /* border: 1px solid burlywood; */
+            width: 100%;
+            height: 35px;
+            box-sizing: border-box;
+        }
+
+        .itemtitle-p{
+            float: left;
+            height: 35px;
+            line-height: 35px;
+            padding-left: 5px;
+            color: #444;
+        }
+
+        .itemtitle-image{
+            float: right;
+            height: 35px;
+            line-height: 35px;
+            padding-right: 5px;
+            color: #eee;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 控制器 -->
+    <div class="title-view">
+        控制器
+    </div>
+    <div class="content-view">  
+        <!--  -->
+        <div class="content-item" onclick="clickTheContentItem('UITableView')">
+            <div class="itemimage">
+                <svg class="icon" aria-hidden="true" style="font-size: 130px;color: #e0e0e0;">
+                    <use xlink:href="#icon-liebiao"></use>
+                </svg>
+            </div>
+            <div class="itemtitle clearfix">
+                <p class="itemtitle-p">UITableView</p>
+                <svg class="icon itemtitle-image" aria-hidden="true" style="font-size: 30px;">
+                    <use xlink:href="#icon-ai226"></use>
+                </svg>
+            </div>
+        </div>
+        <!--  -->
+        <div class="content-item" onclick="clickTheContentItem('UICollectionView')">
+            <div class="itemimage">
+                <svg class="icon" aria-hidden="true" style="font-size: 130px; color: #e0e0e0;">
+                    <use xlink:href="#icon-tableview"></use>
+                </svg>
+            </div>
+            <div class="itemtitle clearfix">
+                <p class="itemtitle-p">UICollectionView</p>
+                <svg class="icon itemtitle-image" aria-hidden="true" style="font-size: 30px;">
+                    <use xlink:href="#icon-ai226"></use>
+                </svg>
+            </div> 
+        </div>
+    </div>
+    <!-- <input type="button" id="export" value="导出" onclick="clickTheBtn()"></input> -->
+    <!-- <script type="text/javascript" src="./page_ios.js" charset="utf-8"></script> -->
+
+    <script type="module">
+        import dialog_user from "./../ui/dialog_user.js"
+
+        console.log(dialog_user)
+
+    </script>
+
+</body>
+</html>

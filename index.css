@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.clearfix:after{
+    content: "020"; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;  
+}
+  
+.clearfix {
+    /* 触发 hasLayout */ 
+    zoom: 1; 
+}
+  
+
+.head{
+    background-color: aquamarine;
+    border: 1px solid red;
+}
+
+.left-tree{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: #2a68c9;
+}
+
+.right-content{
+    position: fixed;
+    left: 60px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: whitesmoke;
+    /* border: 1px solid red; */
+}
+
+.flex{
+    position: flex;
+}
+
+.block{
+    position: block;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.flex-left{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-left-item{
+    height: 56px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-left-item:hover{
+    background-color: #255baf;
+}
+
+.item-text{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.left-image{
+    text-align: center;
+    font-size: 24px;
+}
+
+.iconm{
+    display: block;
+    margin: auto;
+}
+

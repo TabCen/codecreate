@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="./tools/jquery.min.js" charset="utf-8"></script>
+    <script src="./iconfont/iconfont.js"></script>
+    <link rel="stylesheet" type="text/css" href="./index.css"></link> 
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="left-tree" class="left-tree">
+        <div class="flex flex-left">
+            <div class="flex-left-item item-icon" onclick="clickTheRightItem('main')">
+                <svg class="icon iconm" aria-hidden="true" style="font-size: 30px; height: 100%">
+                    <use xlink:href="#icon--hamster"></use>
+                </svg>
+            </div>
+            <div class="flex-left-item" onclick="clickTheRightItem('ios')">
+                <svg class="icon iconm" aria-hidden="true" style="font-size: 30px; color: white;">
+                    <use xlink:href="#icon-iOS"></use>
+                </svg>
+                <div class="item-text">iOS开发</div>
+            </div>
+        </div>
+    </div>
+    <div class="right-content">
+        <iframe id="right-content" src="./pages/page_ios.html" frameborder="0" style="width: 100%;height: 100%"></iframe>
+    </div>
+<!-- 
+    <div style="position: absolute;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.2);display: flex;justify-content: center;align-items: center;">
+        <div style="width: 736px;height: 421px;background-color: white;position: fixed;border-radius: 4px;box-sizing: border-box;box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+        </div>
+    </div> -->
+
+
+    <script type="text/javascript" src="./index.js" charset="utf-8"></script>
+</body>
+</html>

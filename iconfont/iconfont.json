@@ -1,0 +1,79 @@
+{
+  "id": "1514154",
+  "name": "codecreate",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9663",
+      "name": "table_view",
+      "font_class": "tableview",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "999127",
+      "name": "进入",
+      "font_class": "ai226",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "1017253",
+      "name": "iOS",
+      "font_class": "ios",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "4338070",
+      "name": "iOS",
+      "font_class": "iOS",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "8229234",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "9241153",
+      "name": "项目",
+      "font_class": "iconzhengli_xiangmu",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "11206986",
+      "name": "14-chicken",
+      "font_class": "-chicken",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "11207043",
+      "name": "17-panda",
+      "font_class": "-panda",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "11207067",
+      "name": "21-walrus",
+      "font_class": "-walrus",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "11207078",
+      "name": "22-hamster",
+      "font_class": "-hamster",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    }
+  ]
+}

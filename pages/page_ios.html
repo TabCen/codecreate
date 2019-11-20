@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src="../tools/FileSaver.js" charset="utf-8"></script>
     <script type="text/javascript" src="../tools/jszip.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="../tools/jquery.min.js" charset="utf-8"></script>
     <script src="../iconfont/iconfont.js"></script>
     <link rel="stylesheet" type="text/css" href="../index.css"></link> 
     <style type="text/css">
@@ -92,7 +93,7 @@
     </div>
     <div class="content-view">  
         <!--  -->
-        <div class="content-item" onclick="clickTheContentItem('UITableView')">
+        <div id="item-table" class="content-item">
             <div class="itemimage">
                 <svg class="icon" aria-hidden="true" style="font-size: 130px;color: #e0e0e0;">
                     <use xlink:href="#icon-liebiao"></use>
@@ -106,7 +107,7 @@
             </div>
         </div>
         <!--  -->
-        <div class="content-item" onclick="clickTheContentItem('UICollectionView')">
+        <div id="item-collection" class="content-item">
             <div class="itemimage">
                 <svg class="icon" aria-hidden="true" style="font-size: 130px; color: #e0e0e0;">
                     <use xlink:href="#icon-tableview"></use>
@@ -121,14 +122,7 @@
         </div>
     </div>
     <!-- <input type="button" id="export" value="导出" onclick="clickTheBtn()"></input> -->
-    <!-- <script type="text/javascript" src="./page_ios.js" charset="utf-8"></script> -->
-
-    <script type="module">
-        import dialog_user from "./../ui/dialog_user.js"
-
-        console.log(dialog_user)
-
-    </script>
+    <script type="module" src="./page_ios.js" charset="utf-8"></script>
 
 </body>
 </html>

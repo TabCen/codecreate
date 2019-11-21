@@ -1,3 +1,4 @@
+
 // MARK: 点击事件
 function clickTheRightItem(message){
     // console.log(""+message)
@@ -6,4 +7,9 @@ function clickTheRightItem(message){
     }else if(message == "ios"){
         $("#right-content").attr("src","./pages/page_ios.html")
     }
+}
+
+
+function showdialog(){ 
+
 }

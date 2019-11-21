@@ -12,7 +12,6 @@ let dialog_user = {
         div.innerHTML = dialogstr
         // document.body.append(div)
 
-        // window.body.append(div)
         window.top.body.append(div)
 
     }

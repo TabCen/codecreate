@@ -7,10 +7,9 @@ let dialog_user = {
             </div>
         </div>
         `
-        // $("#body").append(dialogstr)
-        let div = document.createElement("div")
-        div.innerHTML = dialogstr
-        document.body.append(div)
+
+        //jquery靠谱
+        window.top.$("body").append(dialogstr)
     }
 }
 

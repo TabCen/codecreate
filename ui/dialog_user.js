@@ -10,10 +10,7 @@ let dialog_user = {
         // $("#body").append(dialogstr)
         let div = document.createElement("div")
         div.innerHTML = dialogstr
-        // document.body.append(div)
-
-        window.body.append(div)
-
+        document.body.append(div)
     }
 }
 

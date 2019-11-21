@@ -1,4 +1,3 @@
-import dialog_user from ""
 
 // MARK: 点击事件
 function clickTheRightItem(message){
